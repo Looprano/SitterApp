@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     defaultConfig {
-        applicationId "it.uniba.di.sms.sitterapp"
+        applicationId "it.unito.di.taass.helpin"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1

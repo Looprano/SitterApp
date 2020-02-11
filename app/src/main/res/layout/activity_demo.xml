@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="it.uniba.di.sms.sitterapp.DemoActivity"
+    tools:context="it.unito.di.taass.helpin.DemoActivity"
     android:background="@drawable/demo"
     android:alpha="0.80"
     android:orientation="vertical"

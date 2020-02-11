@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="it.uniba.di.sms.sitterapp.recensioni.RecensioniActivity">
+    tools:context="it.unito.di.taass.helpin.recensioni.RecensioniActivity">
 
 
     <android.support.design.widget.TabLayout

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="it.uniba.di.sms.sitterapp">
+    package="it.unito.di.taass.helpin">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -15,7 +15,7 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DemoActivity"
+        <activity android:name="it.unito.di.taass.helpin.DemoActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -24,65 +24,65 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".principale.LoginActivity"
+            android:name="it.unito.di.taass.helpin.principale.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".principale.HomeActivity"
+            android:name="it.unito.di.taass.helpin.principale.HomeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".registrazione.RegistrationActivity"
+            android:name="it.unito.di.taass.helpin.registrazione.RegistrationActivity"
             android:label="@string/registrazione"
-            android:parentActivityName=".principale.LoginActivity" />
+            android:parentActivityName="it.unito.di.taass.helpin.principale.LoginActivity" />
         <activity
-            android:name=".profilo.ProfiloPrivatoActivity"
+            android:name="it.unito.di.taass.helpin.profilo.ProfiloPrivatoActivity"
             android:screenOrientation="portrait"
             android:label="@string/profilo"
-            android:parentActivityName=".principale.HomeActivity"
+            android:parentActivityName="it.unito.di.taass.helpin.principale.HomeActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".principale.DrawerActivity"
+            android:name="it.unito.di.taass.helpin.principale.DrawerActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".appuntamenti.IngaggiActivity"
+            android:name="it.unito.di.taass.helpin.appuntamenti.IngaggiActivity"
             android:screenOrientation="portrait"
             android:label="@string/engagements"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".profilo.ProfiloPubblicoActivity"
+            android:name="it.unito.di.taass.helpin.profilo.ProfiloPubblicoActivity"
             android:screenOrientation="portrait"
             android:label="@string/profilo" />
         <activity
-            android:name=".recensioni.RecensioniActivity"
+            android:name="it.unito.di.taass.helpin.recensioni.RecensioniActivity"
             android:screenOrientation="portrait"
             android:label="@string/feedback"
-            android:parentActivityName=".principale.HomeActivity" />
+            android:parentActivityName="it.unito.di.taass.helpin.principale.HomeActivity" />
         <activity
-            android:name=".scriviRecensione.ListaIngaggiSvoltiActivity"
+            android:name="it.unito.di.taass.helpin.scriviRecensione.ListaIngaggiSvoltiActivity"
             android:screenOrientation="portrait"
             android:label="@string/scrivi_recensione"
-            android:parentActivityName=".principale.HomeActivity"
+            android:parentActivityName="it.unito.di.taass.helpin.principale.HomeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".scriviRecensione.ScriviRecensioneActivity"
+            android:name="it.unito.di.taass.helpin.scriviRecensione.ScriviRecensioneActivity"
             android:screenOrientation="portrait"
             android:label="@string/feedback"
-            android:parentActivityName=".scriviRecensione.ListaIngaggiSvoltiActivity" />
+            android:parentActivityName="it.unito.di.taass.helpin.scriviRecensione.ListaIngaggiSvoltiActivity" />
         <activity
-            android:name=".principale.NewNoticeActivity"
+            android:name="it.unito.di.taass.helpin.principale.NewNoticeActivity"
             android:screenOrientation="portrait"
             android:label="@string/nuovoAnnuncio"
-            android:parentActivityName=".appuntamenti.IngaggiActivity"
+            android:parentActivityName="it.unito.di.taass.helpin.appuntamenti.IngaggiActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".recensioni.RecensioniPubblicoActivity"
+            android:name="it.unito.di.taass.helpin.recensioni.RecensioniPubblicoActivity"
             android:screenOrientation="portrait"
             android:label="@string/feedback" />
         <activity
-            android:name=".appuntamenti.candidati"
+            android:name="it.unito.di.taass.helpin.appuntamenti.candidati"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
